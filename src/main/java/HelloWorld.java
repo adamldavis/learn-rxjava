@@ -19,7 +19,7 @@ public class HelloWorld {
             Flows.writeFile(f);
             Thread.sleep(1000); // allows computation to finish
 
-            Flows.readFile(f);
+            Flows.readFileWithProcessor(f);
         } catch (Exception e) {
             e.printStackTrace();
         }

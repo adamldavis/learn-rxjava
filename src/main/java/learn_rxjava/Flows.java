@@ -1,7 +1,12 @@
 package learn_rxjava;
 
 import io.reactivex.Flowable;
+import io.reactivex.Scheduler;
+import io.reactivex.processors.AsyncProcessor;
+import io.reactivex.processors.PublishProcessor;
+import io.reactivex.processors.UnicastProcessor;
 import io.reactivex.schedulers.Schedulers;
+import org.reactivestreams.Processor;
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
@@ -66,11 +71,26 @@ public class Flows {
     }
 
     public static void readFile(File file) {
-        try (final BufferedReader pw = new BufferedReader(new FileReader(file))) {
+        try (final BufferedReader br = new BufferedReader(new FileReader(file))) {
 
-            Flowable<String> flowable = Flowable.fromPublisher(new FilePublisher(pw));
+            Flowable<String> flowable = Flowable.fromPublisher(new FilePublisher(br));
 
             flowable.observeOn(Schedulers.io())
+                    .blockingSubscribe(System.out::println);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void readFileWithProcessor(File file) {
+        try (final BufferedReader br = new BufferedReader(new FileReader(file))) {
+
+            UnicastProcessor processor = UnicastProcessor.create();
+            Flowable.fromPublisher(new FilePublisher(br))
+                    .subscribeOn(Schedulers.io())
+                    .subscribe(processor);
+            processor.observeOn(Schedulers.single())
                     .blockingSubscribe(System.out::println);
 
         } catch (IOException e) {
