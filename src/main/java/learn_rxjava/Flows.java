@@ -83,19 +83,24 @@ public class Flows {
         }
     }
 
-    public static void readFileWithProcessor(File file) {
+    public static List<String> readFileWithProcessor(File file) {
+        final List<String> lines = new ArrayList<>();
+
         try (final BufferedReader br = new BufferedReader(new FileReader(file))) {
 
             UnicastProcessor processor = UnicastProcessor.create();
             Flowable.fromPublisher(new FilePublisher(br))
                     .subscribeOn(Schedulers.io())
                     .subscribe(processor);
-            processor.observeOn(Schedulers.single())
-                    .blockingSubscribe(System.out::println);
+            processor.blockingSubscribe(line -> {
+                        lines.add((String) line);
+                        System.out.println(line);
+                    });
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return lines;
     }
 
     static class FilePublisher implements Publisher<String> {

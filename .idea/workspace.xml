@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52d9cde-e3b4-43f6-aebf-766343f85786" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-rxjava_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-rxjava_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/learn_rxjava/Flows.java" afterPath="$PROJECT_DIR$/src/main/java/learn_rxjava/Flows.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java" afterPath="$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,13 +27,69 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="learn-rxjava" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="learn-rxjava" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Source Sets" />
+                <option name="myItemType" value="org.jetbrains.plugins.gradle.service.project.view.GradleViewContributor$SourceSetsNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="test" />
+                <option name="myItemType" value="org.jetbrains.plugins.gradle.service.project.view.GradleViewContributor$SourceSetNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Dependencies" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="learn-rxjava" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Source Sets" />
+                <option name="myItemType" value="org.jetbrains.plugins.gradle.service.project.view.GradleViewContributor$SourceSetsNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
-              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,23 +97,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlowsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlowsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flows.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Flows.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn_rxjava/Flows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="93" column="60" lean-forward="true" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
+            <state relative-caret-position="184">
+              <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,26 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Schedulers.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.6/bc9c98d51bade8ad2f03ac8c44d219c1818c40f5/rxjava-2.1.6-sources.jar!/io/reactivex/schedulers/Schedulers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1002">
-              <caret line="177" column="28" lean-forward="false" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
-              <folding>
-                <element signature="e#9631#9632#0" expanded="true" />
-                <element signature="e#9685#9686#0" expanded="true" />
-                <element signature="e#16329#16330#0" expanded="true" />
-                <element signature="e#16391#16392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="46">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -106,7 +154,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -198,6 +246,11 @@
                 <option name="description" value="Displays the configuration model of root project 'learn-rxjava'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs tests on the JUnit Platform." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="junitPlatformTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the project as a distribution as-is." />
@@ -306,8 +359,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6001759717000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3280274037" />
+        <entry key="$PROJECT_DIR$" value="6042773450000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2580272079" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -320,6 +374,24 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.1.1/9584a4873aee4b2b2eac2c8737a6533d896d4fc8/junit-platform-gradle-plugin-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.1.1/39d8af5e9332a85bc2f008dee111eb4895f3a91/junit-platform-gradle-plugin-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/777508fa9f3e03cafb3c1fb2eba3dca317f4b1ee/apiguardian-api-1.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.1.1/b25bead2349ffb7ca8f752e92de7abb2de43133e/junit-platform-console-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.1.1/be5fc85283343805b20707480ba63bb8f6169d01/junit-platform-console-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.1.1/9b0b2f458bd6fecee0627762707f80de98826037/junit-platform-launcher-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.1.1/7ba76f577d8a2193f8e6e5a4bd0dd2a30ffce549/junit-platform-launcher-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.1.1/5fcf8e292b87a2240e1e6dcd2fecfc8916b099ba/junit-platform-engine-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.1.1/62af0a28f8c153b940e8abcb485f25dd07ffe633/junit-platform-engine-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.1.1/acd910bc6b783c9e6fe138c08d4f148b691dfc3b/junit-platform-commons-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.1.1/36fca464a84454cf56ae2759a8ba18d6d99d1113/junit-platform-commons-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/a67ba0f50d97fa616f2470c5a48eb7f9eb38391c/opentest4j-1.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -329,73 +401,138 @@
               <option name="name" value="learn-rxjava" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-docs-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-launcher-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-cli-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-model-core-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-open-api-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-process-services-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-wrapper-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-base-services-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-logging-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-messaging-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/groovy-all-2.4.7.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-resources-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-ui-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-core-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-bin/37qejo6a26ua35lyn7h1u9v2n/gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/task-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-docs-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-launcher-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-cli-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-model-core-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-open-api-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-process-services-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-wrapper-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-base-services-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-logging-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-messaging-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/groovy-all-2.4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-resources-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-ui-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-core-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -412,14 +549,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn_rxjava/Flows.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="107" />
+    <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
   </component>
@@ -438,7 +576,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -661,83 +798,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-rxjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-rxjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn_rxjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FilePublisherSubscription" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-rxjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-rxjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn_rxjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FilePublisher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -851,6 +921,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -971,12 +1050,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="107" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -988,8 +1068,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33105803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25726587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1019,6 +1099,63 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.6/bc9c98d51bade8ad2f03ac8c44d219c1818c40f5/rxjava-2.1.6-sources.jar!/io/reactivex/processors/AsyncProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.6/bc9c98d51bade8ad2f03ac8c44d219c1818c40f5/rxjava-2.1.6-sources.jar!/io/reactivex/schedulers/Schedulers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3611">
+          <caret line="177" column="28" lean-forward="false" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
+          <folding>
+            <element signature="e#16329#16330#0" expanded="true" />
+            <element signature="e#16391#16392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn_rxjava/Flows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="93" column="60" lean-forward="true" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
           <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1031,7 +1168,7 @@
         <state relative-caret-position="345">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,41 +1247,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.6/bc9c98d51bade8ad2f03ac8c44d219c1818c40f5/rxjava-2.1.6-sources.jar!/io/reactivex/processors/UnicastProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.6/bc9c98d51bade8ad2f03ac8c44d219c1818c40f5/rxjava-2.1.6-sources.jar!/io/reactivex/schedulers/Schedulers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="177" column="28" lean-forward="false" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
+        <state relative-caret-position="178">
+          <caret line="245" column="31" lean-forward="true" selection-start-line="245" selection-start-column="31" selection-end-line="245" selection-end-column="31" />
           <folding>
-            <element signature="e#9631#9632#0" expanded="true" />
-            <element signature="e#9685#9686#0" expanded="true" />
             <element signature="e#16329#16330#0" expanded="true" />
             <element signature="e#16391#16392#0" expanded="true" />
           </folding>
@@ -1161,8 +1286,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn_rxjava/Flows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="93" column="60" lean-forward="true" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
+        <state relative-caret-position="184">
+          <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn_rxjava/FlowsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
